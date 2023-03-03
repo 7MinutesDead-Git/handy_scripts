@@ -6,7 +6,7 @@ Effective at avoiding Discord's afk timer for ending long calls prematurely (say
 Interrupt at any time with CTRL-C.
 
 ## windows-git-dates-rebase
-Used for generating a list of commands for amending git commit dates during a rebase, for **Windows** since Windows requires some extra commands to make this work.
+Used for generating a list of commands for amending git commit dates during a rebase, specifically for **Windows** (since Windows requires some extra commands to make this work).
 
 This will change the commit dates of a git repo's history from the most recent commit and working backwards, to random dates within a range between two chosen dates, while ensuring reasonable waking hours are followed (with each new rebased commit date happening anywhere between 5am and 11pm).
 
